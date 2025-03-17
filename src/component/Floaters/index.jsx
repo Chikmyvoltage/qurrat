@@ -38,7 +38,7 @@ const Floaters = () => {
   const { scrollYProgress } = useScroll();
   const [statefulScroll, setScroll] = useState(scrollYProgress.get());
   scrollYProgress.on("change", (e) => setScroll(e));
-  const blurAmount = useTransform(scrollYProgress, [0,0.25,0.35,0.5], [36,64,96,200]);
+  const blurAmount = useTransform(scrollYProgress, [0,0.1,0.15,0.35], [36,64,96,200]);
   return (
     <>
 
