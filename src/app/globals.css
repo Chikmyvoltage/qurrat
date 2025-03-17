@@ -1,0 +1,27 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-primary: #548CA8;
+  --color-secondary: #476072;
+  --color-tertiary: #141318;
+
+  --font-sg: var(--font-sg);
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+html {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-secondary) var(--color-tertiary);
+  scroll-behavior: smooth;
+}

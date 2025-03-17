@@ -1,0 +1,4 @@
+.floating-ellipse {
+  position: absolute;
+  border-radius: 9999px;
+}
