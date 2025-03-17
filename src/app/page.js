@@ -24,19 +24,19 @@ export default function Home() {
               priority/>
           </div>
           
-          <section className="w-full px-12 font-medium">
-            <ul className="bg-black/40 flex text-center flex-row justify-between rounded-xl px-18 py-2 aspect-[6]">
-              <li className="flex flex-col gap-4">
+          <section className="w-full px-2 md:px-12 font-medium">
+            <ul className="bg-black/40 flex text-center flex-row gap-2 justify-between rounded-xl px-8 lg:px-18 py-2 text-xs md:text-md lg:text-base pb-8">
+              <li className="flex flex-col gap-4 justify-between">
                 <span>Team Members</span>
-                <span className="text-6xl">3</span>
+                <span className="text-3xl sm:text-5xl lg:text-6xl">3</span>
               </li>
-              <li className="flex flex-col gap-4">
+              <li className="flex flex-col gap-4 justify-between">
                 <span>Number of Projects</span>
-                <span className="text-6xl">4</span>
+                <span className="text-3xl sm:text-5xl lg:text-6xl">4</span>
               </li>
-              <li className="flex flex-col gap-4">
+              <li className="flex flex-col gap-4 justify-between">
                 <span>Founded in</span>
-                <span className="text-6xl">2025</span>
+                <span className="text-3xl sm:text-5xl lg:text-6xl">2025</span>
               </li>
             </ul>
           </section>
