@@ -20,8 +20,20 @@
   }
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+  background: var(--color-tertiary);
+
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-secondary);
+}
+
 html {
   scrollbar-width: thin;
   scrollbar-color: var(--color-secondary) var(--color-tertiary);
   scroll-behavior: smooth;
 }
+
+
